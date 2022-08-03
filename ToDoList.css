@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: block;
+  font-size: 40px;
+  font-weight: 1600;
+  font-family: sans-serif;
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  color: rgb(243, 11, 11);
+}
+
+.container {
+  display: block;
+  float: left;
+}
+
+#newCategoryForm {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  /* border-color: rgb(30, 30, 30); */
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: rgb(76, 67, 255);
+  padding: 8x 12px;
+  margin-top: 10px;
+  clear: both;
+  cursor: pointer;
+}
+
+#categoryTable {
+  display: block;
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  border: solid black;
+
+  border-spacing: 50px 0;
+}
+
+#todoListTable {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border: solid black;
+  width: 700px;
+
+  border-collapse: separate;
+  border-spacing: 30px 0;
+}
+
+#thead {
+  background-color: white;
+}
+
+#todoListData {
+  background-color: white;
+}
+
+#projectNameId {
+  margin-top: 10px;
+}
+
+.categoryForm {
+  display: none;
+  background-color: rgb(117, 117, 117);
+}
+
+.categoryFormButtons {
+  display: block;
+  border: solid;
+  color: black;
+  font-size: 20px;
+  border-color: black;
+  border-width: 1px;
+}
+
+.buttonClass {
+  display: block;
+  float: right;
+  border-color: black;
+  border-width: 1px;
+  background-color: blue;
+}
+
+.todoForm {
+  display: block;
+  background-color: white;
+  border-width: 1px;
+  border-style: ridge;
+  border-color: black;
+  margin-top: 20px;
+  float: right;
+  color: black;
+  width: 500px;
+}
+
+#generate,
+#container {
+  font-size: 20px;
+}
+
+#todoFormHeading {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#title {
+  font-size: 25px;
+  margin-top: 0px;
+  width: 300px;
+}
+
+#date {
+  font-size: 30px;
+  margin-top: 20px;
+  width: 260px;
+}
+
+#description {
+  font-size: 20px;
+  width: 170px;
+  height: 200px;
+  float: right;
+  margin-top: -40px;
+  text-align: left top;
+}
+
+.a1 {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.prioritySelection {
+  font-size: 30px;
+  margin-top: 20px;
+  display: block;
+  border-color: black;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+.bookTable {
+  margin-top: 2%;
+  margin-left: 3%;
+  border-radius: 1px;
+  border-color: black;
+  width: 600px;
+}
